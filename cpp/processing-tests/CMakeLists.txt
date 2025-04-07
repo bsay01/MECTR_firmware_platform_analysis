@@ -28,35 +28,34 @@ set(PICO_BOARD pico CACHE STRING "Board type")
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
 
-project(446_blink C CXX ASM)
+project(processing-tests C CXX ASM)
 
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(446_blink 446_blink.cpp )
+add_executable(processing-tests processing-tests.cpp )
 
-pico_set_program_name(446_blink "446_blink")
-pico_set_program_version(446_blink "0.1")
+pico_set_program_name(processing-tests "processing-tests")
+pico_set_program_version(processing-tests "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(446_blink 0)
-pico_enable_stdio_usb(446_blink 1)
+pico_enable_stdio_uart(processing-tests 0)
+pico_enable_stdio_usb(processing-tests 1)
 
 # Add the standard library to the build
-target_link_libraries(446_blink
+target_link_libraries(processing-tests
         pico_stdlib)
 
 # Add the standard include files to the build
-target_include_directories(446_blink PRIVATE
+target_include_directories(processing-tests PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}
 )
 
 # Add any user requested libraries
-target_link_libraries(446_blink 
+target_link_libraries(processing-tests
         hardware_spi
         )
 
-pico_add_extra_outputs(446_blink)
-
+pico_add_extra_outputs(processing-tests)
