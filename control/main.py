@@ -108,7 +108,7 @@ flash_led(2)  # Startup indicator
 
 """
 log_to_file("New test - prevented compiler optimization")
-log_to_file("Rust [4] then C++ [4]")
+log_to_file("Rust [4] then C++ [4] then CircuitPython [4] then MicroPython [4]")
 log_to_file("GPIO, Bubble sort, Alloc, Fibonacci")
 """
 
