@@ -26,6 +26,7 @@ heapless = "0.8.0"
 rp2040-hal = { version="0.10", features=["rt", "critical-section-impl"] }
 rp2040-boot2 = "0.3"
 flip-link = "0.1.10"
+embedded-alloc = "0.6.0"
 
 # cargo build/run
 [profile.dev]
