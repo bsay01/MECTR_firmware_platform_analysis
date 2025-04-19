@@ -1,6 +1,6 @@
-This code was written for a research paper on the viability of modern firmware platforms for mechatronic applications, which contributed to my electrical engineering undergrad. Documentation for C++, MicroPython, and CircuitPython is relatively easy to find, but as Rust is still relatively unused on microcontrollers compared to the current titans, it was more challenging to develop the Rust code for this project. I have included links to the resources I used to create the Rust code in this repository in case anyone is using this for reference - I know I certainly will in the future.
-
 # Viability of Modern Firmware Platforms for Mechatronic Applications Research Project
+
+This code was written for a research paper on the viability of modern firmware platforms for mechatronic applications, which contributed to my electrical engineering undergrad. Documentation for C++, MicroPython, and CircuitPython is relatively easy to find, but as Rust is still relatively unused on microcontrollers compared to the current titans, it was more challenging to develop the Rust code for this project. I have included links to the resources I used to create the Rust code in this repository in case anyone is using this for reference - I know I certainly will in the future.
 
 ## Executive Summary
 
