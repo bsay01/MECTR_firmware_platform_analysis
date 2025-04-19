@@ -53,7 +53,7 @@ Setup for the tests will be completed before the test begins rather than being p
 
 The following data was gathered over a period of one hour. To ensure consistency by removing optimizations from Python’s interpreter at runtime, each test was run once on each platform and then all the tested processors were hard reset by cycling their shared power supply. Each test was completed 50 times to ensure accuracy. The testing setup is shown below in Figure 1.
 
-![An image of testing setup showing four Pico 1 microprocessors wired to a fifth Pico for timing the tests.](https://github.com/bsay01/ENGR446_code/blob/main/setup.JPG?raw=true)
+![An image of testing setup showing four Pico 1 microprocessors wired to a fifth Pico for timing the tests.](https://github.com/bsay01/ENGR446_code/blob/main/setup.jpg?raw=true)
 ***Figure 1: Testing Setup***
 
 ### GPIO Speed
